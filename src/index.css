@@ -1,0 +1,60 @@
+/* TODO: ESTILOS GLOBALES */
+
+/* Estilos globales aplicados a todos los elementos */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos para el cuerpo del documento */
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Estilos para los elementos de lista (li) */
+
+li {
+  list-style: none;
+}
+
+/* Estilos para los elementos de código (code) */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Estilos adicionales para los elementos de entrada (input) */
+
+input {
+  margin-top: 15px;
+  margin-left: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #FFF;
+  color: #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+/* Estilos adicionales para los elementos de entrada (input) cuando están enfocados (focused) */
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0px 1px rgba(99, 139, 187, 1);
+}
+
+/* Estilos para los elementos de enlace (a) */
+
+a {
+  text-decoration: none;
+  color: white;
+}
